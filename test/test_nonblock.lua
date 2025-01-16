@@ -16,4 +16,3 @@ assert(socket.select({}, {client}, 5))
 
 assert(client:connect(addr, port))
 
-
